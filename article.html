@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Blog article</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/article.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header shadow color-bg-grey">
+      <section class="header__title">
+        <h1>Blog title</h1>
+      </section>
+      <section class="header__menu">
+        <section class="subscribe">
+          <button class="hoverable">
+            <a>Subscribe</a>
+          </button>
+        </section>
+        <form
+          class="search-form"
+          action="<potential-backend-endpoint>"
+          method="GET"
+        >
+          <label for="searched-post"></label>
+          <input
+            class="hoverable shadow"
+            placeholder="search..."
+            type="search"
+            name="searched-post"
+          />
+          <button type="submit" class="hoverable shadow">
+            <span class="fa fa-search"></span>
+          </button>
+        </form>
+      </section>
+    </header>
+
+    <main class="main-article">
+      <article class="article">
+        <section class="article__title">
+          <h1>Sample blog post</h1>
+          <p>January 01 2020 by <em><a class="color-blue">Author-name</a></em></p>
+        </section>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
+            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
+            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
+          </p>
+        </section>
+        <hr />
+        <section>
+          <h2>Heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
+            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
+            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
+            Aenean id purus non orci porttitor molestie. Duis blandit ipsum dui,
+            id luctus dui dapibus nec. Nam id ullamcorper mauris. Aliquam erat
+            volutpat. Proin quis interdum enim, a fringilla enim. Curabitur sed
+            purus leo. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia curae; Praesent dignissim lorem dolor,
+            pharetra sodales erat tincidunt iaculis.
+          </p>
+          <quote
+            >Quisque volutpat nunc vitae mollis suscipit. Mauris elementum lacus
+            erat, id vulputate felis condimentum sed.
+          </quote>
+        </section>
+        <section>
+          <h3>Sub Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
+            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
+            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
+            Aenean id purus non orci porttitor molestie. Duis blandit ipsum dui,
+            id luctus dui dapibus nec. Nam id ullamcorper mauris. Aliquam erat
+            volutpat. Proin quis interdum enim, a fringilla enim. Curabitur sed
+            purus leo. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia curae; Praesent dignissim lorem dolor,
+            pharetra sodales erat tincidunt iaculis. Quisque volutpat nunc vitae
+            mollis suscipit. Mauris elementum lacus erat, id vulputate felis
+            condimentum sed.
+          </p>
+        </section>
+        <section>
+          <h3>Sub Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
+            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
+            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
+            Aenean id purus non orci porttitor molestie.
+          </p>
+          <code>Sample code</code>
+          <p>
+            Duis blandit ipsum dui, id luctus dui dapibus nec. Nam id
+            ullamcorper mauris. Aliquam erat volutpat. Proin quis interdum enim,
+            a fringilla enim. Curabitur sed purus leo. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia curae;
+            Praesent dignissim lorem dolor, pharetra sodales erat tincidunt
+            iaculis. Quisque volutpat nunc vitae mollis suscipit. Mauris
+            elementum lacus erat, id vulputate felis condimentum sed.
+          </p>
+        </section>
+        <section>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
+            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
+            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
+            Aenean id purus non orci porttitor molestie.
+          </p>
+          <ul>
+            <li>Duis blandit ipsum dui</li>
+            <li>Id luctus dui dapibus nec.</li>
+            <li>Aliquam erat volutpat</li>
+            <li>Vestibulum ante ipsum primis</li>
+          </ul>
+          <p>
+            Duis blandit ipsum dui, id luctus dui dapibus nec. Nam id
+            ullamcorper mauris.
+          </p>
+
+          <ol>
+            <li>Duis blandit ipsum dui</li>
+            <li>Id luctus dui dapibus nec.</li>
+            <li>Aliquam erat volutpat</li>
+            <li>Vestibulum ante ipsum primis</li>
+          </ol>
+          <p>
+            Quisque volutpat nunc vitae mollis suscipit. Mauris elementum lacus
+            erat, id vulputate felis condimentum sed.
+          </p>
+        </section>
+        <nav class="article__nav">
+          <button type="button">Previous post</button>
+          <button type="button">Next post</button>
+        </nav>
+      </article>
+      <aside class="aside">
+        <section class="aside__author">
+          <h3><em><strong>About</strong></em></h3>
+          <div>
+            <figure>
+              <img
+                src="https://picsum.photos/id/1005/200/300"
+                alt="sample picture"
+              />
+              <figcaption>Pic caption</figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </section>
+        <section>
+          <nav>
+            <h3><em><strong>Archives</strong></em></h3>
+            <ul class="color-blue">
+              <li><a>Jenuary</a></li>
+              <li><a>February</a></li>
+              <li><a>March</a></li>
+              <li><a>April</a></li>
+              <li><a>May</a></li>
+              <li><a>June</a></li>
+              <li><a>July</a></li>
+              <li><a>August</a></li>
+              <li><a>September</a></li>
+              <li><a>October</a></li>
+              <li><a>November</a></li>
+              <li><a>December</a></li>
+            </ul>
+          </nav>
+
+          <nav>
+            <h3><em><strong>Elsewhere</strong></em></h3>
+            <ul class="color-blue">
+              <li><a>Github</a></li>
+              <li><a>Twitter</a></li>
+              <li><a>Facebook</a></li>
+            </ul>
+          </nav>
+        </section>
+      </aside>
+    </main>
+    <footer class="footer color-bg-grey">
+      <h3>Footer</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </footer>
+  </body>
+</html>

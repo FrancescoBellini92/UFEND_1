@@ -1,0 +1,50 @@
+.aside {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.aside section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0px 0px 20px 0px;
+}
+
+.aside section * {
+  margin: 0 5px;
+}
+.aside__author {
+  border: 2px solid var(--color-grey);
+  border-radius: 2%;
+  max-width: 300px;
+}
+.aside__author div {
+  display: flex;
+  flex-direction: row;
+}
+
+.aside__author img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.aside nav ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+@media (min-width: 1024px) {
+  .aside {
+    margin: 0 10px;
+    grid-area: "aside";
+    width: 300px;
+    flex-direction: column;
+    align-items: start;
+  }
+}

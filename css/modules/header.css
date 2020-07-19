@@ -13,10 +13,14 @@
 }
 
 .header__menu {
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+.header__menu button {
+  margin: initial;
 }
 
 @media (min-width: 768px) {

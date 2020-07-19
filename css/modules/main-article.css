@@ -1,0 +1,26 @@
+.main-article {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {   
+  .main-article {
+    margin: 40px auto;
+    width: 90%;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr 320px;
+    grid-template-areas: 
+    "article" "aside";
+    align-items: start;
+  }
+}
+
+@media (min-width: 1250px) {
+  .main-article {
+    margin: 40px auto;
+    width: 1250px;
+  }
+}

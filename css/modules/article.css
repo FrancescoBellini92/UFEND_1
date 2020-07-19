@@ -1,0 +1,27 @@
+.article {
+  grid-area: "article";
+  margin: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.article section {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+.article__title {
+  padding-bottom: 40px;
+}
+.article__nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 1024) {
+  .article {
+    grid-area: "article";
+  }
+}

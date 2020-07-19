@@ -2,6 +2,9 @@
 @import './modules/utilities.css';
 @import './modules/layout.css';
 @import './modules/header.css';
-@import './modules/main-list.css';
+@import './modules/main-article.css';
+@import './modules/aside.css';
 @import './modules/card.css';
+@import './modules/article.css';
 @import './modules/footer.css';
+

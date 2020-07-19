@@ -1,4 +1,4 @@
-.main {
+.main-list {
   margin: 20px auto;
   grid-area: "main";
   display: flex;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 768px) {
-  .main {
+  .main-list {
     padding: 20px 0;
     width: 90%;
     display: flex;
@@ -19,7 +19,7 @@
 }
 
 @media (min-width: 1250px) {
-  .main {
+  .main-list {
     margin: 0 auto;
     width: 1250px;
   }
