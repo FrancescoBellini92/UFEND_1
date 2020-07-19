@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Varta", sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 2px 5px 0 5px;
+  line-height: 1.75;
+  border-radius: 5%;
+}
+
+input {
+  margin: 0;
+  padding: 2px 5px 0 5px;
+  line-height: 1.75;
+}

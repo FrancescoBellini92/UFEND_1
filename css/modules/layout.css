@@ -1,0 +1,20 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr 100px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "ft";
+}
+
+@media (min-width: 768px) {
+  body {
+    grid-template-rows: 70px 1fr 70px;
+  }
+}

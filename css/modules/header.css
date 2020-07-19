@@ -1,0 +1,43 @@
+.header {
+  grid-area: "hd";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header__title {
+  width: 100%;
+  text-align: center;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .header__title {
+    padding-left: 15px;
+    width: auto;
+  }
+
+  .header__menu {
+    padding-right: 15px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1250px) {
+  .header {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}

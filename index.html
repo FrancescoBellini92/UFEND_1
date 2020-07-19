@@ -1,96 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="udacity FEND project 1">
-    <meta name="keywords" content="udacity front end">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="description" content="udacity FEND project 1" />
+    <meta name="keywords" content="udacity front end" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Udacity FEND project 1</title>
-    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
   </head>
+
   <body>
-    <header>
-      <section class="header-title">
-        <h1>Blog</h1>
+    <header class="header shadow color-bg-grey">
+      <section class="header__title">
+        <h1>Blog title</h1>
       </section>
-      <section class="header-menu">
-        <form class="header-search-form">
+      <section class="header__menu">
+        <section class="subscribe">
+          <button class="hoverable">
+            <a>Subscribe</a>
+          </button>
+        </section>
+        <form class="search-form" action="<potential-backend-endpoint>" method="GET">
           <label for="searched-post"></label>
-          <input placeholder="search..." type="search" name="searched-post">
-          <button type="button">search</button> <!-- not using submit, to avoid accidental reloading -->
+          <input
+            class="hoverable shadow"
+            placeholder="search..."
+            type="search"
+            name="searched-post"
+          />
+          <button type="submit" class="hoverable shadow">
+            <span class="fa fa-search"></span>
+          </button>
         </form>
       </section>
     </header>
-    <main>
 
-        <article>
-          <section class="article-header">
-            <h3>Example blog post</h3> 
-            <div class="article-header-aside"> 
-              <p>World</p>
-              <p class="article-date">11/07/2020</p>
-            </div>
-          </section>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat viverra, tincidunt enim a, scelerisque diam. 
-             Cras suscipit dictum ipsum, non suscipit libero malesuada id. Duis a porta lorem, ut facilisis ipsum. Maecenas euismod 
-             arcu purus. In ornare in magna ut laoreet...
-           </p>
-           <a>Continue reading</a>
-         </article>
+    <main class="main">
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-blue bold"><strong>Bold</strong></p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="" class="color-blue">Continue reading</a>
+      </article>
 
-         <article>
-          <section class="article-header">
-            <h3>Example blog post</h3> 
-            <div class="article-header-aside"> 
-              <p>World</p>
-              <p class="article-date">11/07/2020</p>
-            </div>
-          </section>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat viverra, tincidunt enim a, scelerisque diam. 
-             Cras suscipit dictum ipsum, non suscipit libero malesuada id. Duis a porta lorem, ut facilisis ipsum. Maecenas euismod 
-             arcu purus. In ornare in magna ut laoreet...
-           </p>
-           <a>Continue reading</a>
-         </article>
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-red">
+            <strong><em>Italics</em></strong>
+          </p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="" class="color-blue">Continue reading</a>
+      </article>
 
-         <article>
-          <section class="article-header">
-            <h3>Example blog post</h3> 
-            <div class="article-header-aside"> 
-              <p>World</p>
-              <p class="article-date">11/07/2020</p>
-            </div>
-          </section>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat viverra, tincidunt enim a, scelerisque diam. 
-             Cras suscipit dictum ipsum, non suscipit libero malesuada id. Duis a porta lorem, ut facilisis ipsum. Maecenas euismod 
-             arcu purus. In ornare in magna ut laoreet...
-           </p>
-           <a>Continue reading</a>
-         </article>
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-red">
+            <strong><em>Italics</em></strong>
+          </p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="" class="color-blue">Continue reading</a>
+      </article>
 
-         <article>
-          <section class="article-header">
-            <h3>Example blog post</h3> 
-            <div class="article-header-aside"> 
-              <p>World</p>
-              <p class="article-date">11/07/2020</p>
-            </div>
-          </section>
-          <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat viverra, tincidunt enim a, scelerisque diam. 
-             Cras suscipit dictum ipsum, non suscipit libero malesuada id. Duis a porta lorem, ut facilisis ipsum. Maecenas euismod 
-             arcu purus. In ornare in magna ut laoreet...
-           </p>
-           <a>Continue reading</a>
-         </article>
-
-
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-blue"><strong>Bold</strong></p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="" class="color-blue">Continue reading</a>
+      </article>
     </main>
-    <footer>
-      Footer
+
+    <footer class="footer shadow color-bg-grey">
+      <h3>Footer</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
     </footer>
+    <!-- hover-specifc loaded here to avoid animations due to style load -->
+    <link href="css/modules/hoverable.css" type="text/css" rel="stylesheet" />
   </body>
 </html>
