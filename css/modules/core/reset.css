@@ -27,13 +27,18 @@ strong {
 
 a {
   text-decoration: none;
+  color: var(--color-primary);
 }
 
 button {
-  padding: 2px 5px 0 5px;
+  padding: 2px 7px 0 7px;
   margin: 2px 5px;
   line-height: 1.75;
   border-radius: 5%;
+}
+
+button a {
+  color: inherit;
 }
 
 input {
@@ -42,19 +47,18 @@ input {
   line-height: 1.75;
 }
 
-ul,
-ol {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+ul, ol {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 code {
   display: block;
   line-height: 2;
   margin: 10px 0;
-  border: 1px solid grey;
+  border: 1px solid var(--color-secondary);
   padding: 7px 0 5px 5px;
 }

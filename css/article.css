@@ -1,10 +1,10 @@
-@import './modules/reset.css';
-@import './modules/utilities.css';
-@import './modules/layout.css';
-@import './modules/header.css';
-@import './modules/main-article.css';
-@import './modules/aside.css';
-@import './modules/card.css';
-@import './modules/article.css';
-@import './modules/footer.css';
+@import './modules/core/reset.css';
+@import './modules/core/utilities.css';
+@import './modules/core/layout.css';
+@import './modules/core/header.css';
+@import './modules/article/main-article.css';
+@import './modules/article/article.css';
+@import './modules/article/card-small.css'; 
+@import './modules/article/aside.css';
+@import './modules/core/footer.css';
 

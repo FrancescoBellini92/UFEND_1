@@ -8,15 +8,19 @@
   align-items: center;
   justify-content: center;
 }
-.article section {
+
+.article__section {
   text-align: justify;
   margin-bottom: 10px;
 }
+
 .article__title {
   padding-bottom: 40px;
 }
+
 .article__nav {
-  margin-top: 20px;
+  padding: 20px 0;
+  height: 50px;
   text-align: center;
 }
 

@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  border: 2px solid var(--color-grey);
+  border: 2px solid var(--color-secondary);
 }
 
 .card * {

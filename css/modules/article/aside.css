@@ -14,27 +14,11 @@
   margin: 0px 0px 20px 0px;
 }
 
-.aside section * {
+.aside__section * {
   margin: 0 5px;
 }
-.aside__author {
-  border: 2px solid var(--color-grey);
-  border-radius: 2%;
-  max-width: 300px;
-}
-.aside__author div {
-  display: flex;
-  flex-direction: row;
-}
 
-.aside__author img {
-  width: 80px;
-  height: 80px;
-  border-radius: 5%;
-  object-fit: cover;
-}
-
-.aside nav ul {
+.aside__nav ul {
   list-style-type: none;
   padding-inline-start: 0;
 }

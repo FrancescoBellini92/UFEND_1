@@ -1,7 +1,7 @@
-@import './modules/reset.css';
-@import './modules/utilities.css';
-@import './modules/layout.css';
-@import './modules/header.css';
-@import './modules/main-list.css';
-@import './modules/card.css';
-@import './modules/footer.css';
+@import './modules/core/reset.css';
+@import './modules/core/utilities.css';
+@import './modules/core/layout.css';
+@import './modules/core/header.css';
+@import './modules/index/main-list.css';
+@import './modules/index/card.css';
+@import './modules/core/footer.css';

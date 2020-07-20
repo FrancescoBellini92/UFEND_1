@@ -1,0 +1,11 @@
+.hoverable {
+  transition: all ease 0.5s;
+}
+
+button.hoverable:hover {
+  padding: 8px 10px;
+}
+
+input.hoverable:hover {
+  padding: 8px 10px;
+}

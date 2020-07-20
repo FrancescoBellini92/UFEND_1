@@ -5,7 +5,8 @@
     <meta name="description" content="udacity FEND project 1" />
     <meta name="keywords" content="udacity front end" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Udacity FEND project 1</title>
+    <title>FEND project 1 - blog</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> 
     <link
       href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
       rel="stylesheet"
@@ -18,17 +19,17 @@
   </head>
 
   <body>
-    <header class="header shadow color-bg-grey">
+    <header class="header shadow color-bg-secondary">
       <section class="header__title">
         <h1>Blog title</h1>
       </section>
       <section class="header__menu">
         <section class="subscribe">
-          <button class="hoverable">
-            <a>Subscribe</a>
+          <button class="shadow hoverable">
+            <a href="">Subscribe</a>
           </button>
         </section>
-        <form class="search-form" action="<potential-backend-endpoint>" method="GET">
+        <form class="search-form" action="" method="GET">
           <label for="searched-post"></label>
           <input
             class="hoverable shadow"
@@ -47,7 +48,7 @@
       <article class="card hoverable shadow">
         <section class="card__header">
           <h3>Example blog post</h3>
-          <p class="color-blue bold"><strong>Bold</strong></p>
+          <p class="color-primary bold"><strong>Bold</strong></p>
           <p>11/07/2020</p>
         </section>
         <p class="card__content">
@@ -55,13 +56,13 @@
           viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
           ipsum, non suscipit libero malesuada id...
         </p>
-        <a href="" class="color-blue">Continue reading</a>
+        <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
       <article class="card hoverable shadow">
         <section class="card__header">
           <h3>Example blog post</h3>
-          <p class="color-red">
+          <p class="color-danger">
             <strong><em>Italics</em></strong>
           </p>
           <p>11/07/2020</p>
@@ -71,13 +72,13 @@
           viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
           ipsum, non suscipit libero malesuada id...
         </p>
-        <a href="" class="color-blue">Continue reading</a>
+        <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
       <article class="card hoverable shadow">
         <section class="card__header">
           <h3>Example blog post</h3>
-          <p class="color-red">
+          <p class="color-danger">
             <strong><em>Italics</em></strong>
           </p>
           <p>11/07/2020</p>
@@ -87,13 +88,13 @@
           viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
           ipsum, non suscipit libero malesuada id...
         </p>
-        <a href="" class="color-blue">Continue reading</a>
+        <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
       <article class="card hoverable shadow">
         <section class="card__header">
           <h3>Example blog post</h3>
-          <p class="color-blue"><strong>Bold</strong></p>
+          <p class="color-primary"><strong>Bold</strong></p>
           <p>11/07/2020</p>
         </section>
         <p class="card__content">
@@ -101,15 +102,43 @@
           viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
           ipsum, non suscipit libero malesuada id...
         </p>
-        <a href="" class="color-blue">Continue reading</a>
+        <a href="article.html" class="color-primary">Continue reading</a>
+      </article>
+
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-primary"><strong>Bold</strong></p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="article.html" class="color-primary">Continue reading</a>
+      </article>
+
+      <article class="card hoverable shadow">
+        <section class="card__header">
+          <h3>Example blog post</h3>
+          <p class="color-danger"><em>Italics</em></p>
+          <p>11/07/2020</p>
+        </section>
+        <p class="card__content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu erat
+          viverra, tincidunt enim a, scelerisque diam. Cras suscipit dictum
+          ipsum, non suscipit libero malesuada id...
+        </p>
+        <a href="article.html" class="color-primary">Continue reading</a>
       </article>
     </main>
 
-    <footer class="footer shadow color-bg-grey">
+    <footer class="footer shadow color-bg-secondary">
       <h3>Footer</h3>
       <p>Lorem ipsum dolor sit amet...</p>
     </footer>
-    <!-- hover-specifc loaded here to avoid animations due to style load -->
-    <link href="css/modules/hoverable.css" type="text/css" rel="stylesheet" />
+    <!-- loaded here to avoid animations due to style load -->
+    <link href="css/modules/core/hoverable.css" type="text/css" rel="stylesheet" />
   </body>
 </html>

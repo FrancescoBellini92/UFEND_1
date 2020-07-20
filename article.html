@@ -4,8 +4,9 @@
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Blog article</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FEND project 1 - article</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
       rel="stylesheet"
@@ -17,21 +18,17 @@
     <link href="css/article.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header shadow color-bg-grey">
+    <header class="header shadow color-bg-secondary">
       <section class="header__title">
         <h1>Blog title</h1>
       </section>
       <section class="header__menu">
         <section class="subscribe">
-          <button class="hoverable">
-            <a>Subscribe</a>
+          <button class="shadow hoverable">
+            <a href="">Subscribe</a>
           </button>
         </section>
-        <form
-          class="search-form"
-          action="<potential-backend-endpoint>"
-          method="GET"
-        >
+        <form class="search-form" action="" method="GET">
           <label for="searched-post"></label>
           <input
             class="hoverable shadow"
@@ -50,9 +47,11 @@
       <article class="article">
         <section class="article__title">
           <h1>Sample blog post</h1>
-          <p>January 01 2020 by <em><a class="color-blue">Author-name</a></em></p>
+          <p>
+            January 01 2020 by <em><a href="">Author-name</a></em>
+          </p>
         </section>
-        <section>
+        <section class="article__section">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
@@ -60,8 +59,7 @@
             mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
           </p>
         </section>
-        <hr />
-        <section>
+        <section class="article__section">
           <h2>Heading</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -69,42 +67,46 @@
             finibus massa sit amet varius. Pellentesque interdum vel nisi eu
             mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
             Aenean id purus non orci porttitor molestie. Duis blandit ipsum dui,
-            id luctus dui dapibus nec. Nam id ullamcorper mauris. Aliquam erat
-            volutpat. Proin quis interdum enim, a fringilla enim. Curabitur sed
-            purus leo. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae; Praesent dignissim lorem dolor,
-            pharetra sodales erat tincidunt iaculis.
+            id luctus dui dapibus nec. Nam id <em>ullamcorper</em> mauris.
+            Aliquam erat volutpat. Proin quis interdum enim, a fringilla enim.
+            Curabitur sed purus leo. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia curae; Praesent dignissim
+            lorem dolor, pharetra sodales erat tincidunt iaculis.
           </p>
           <quote
             >Quisque volutpat nunc vitae mollis suscipit. Mauris elementum lacus
             erat, id vulputate felis condimentum sed.
           </quote>
         </section>
-        <section>
+        <section class="article__section">
           <h3>Sub Heading</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
-            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
-            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
-            Aenean id purus non orci porttitor molestie. Duis blandit ipsum dui,
-            id luctus dui dapibus nec. Nam id ullamcorper mauris. Aliquam erat
-            volutpat. Proin quis interdum enim, a fringilla enim. Curabitur sed
-            purus leo. Vestibulum ante ipsum primis in faucibus orci luctus et
-            ultrices posuere cubilia curae; Praesent dignissim lorem dolor,
-            pharetra sodales erat tincidunt iaculis. Quisque volutpat nunc vitae
-            mollis suscipit. Mauris elementum lacus erat, id vulputate felis
-            condimentum sed.
+            congue sagittis mi, ac aliquet est
+            <strong>mattis fermentum</strong>. Integer congue finibus massa sit
+            amet varius. Pellentesque interdum vel nisi eu mollis. Morbi ut
+            dolor nec tellus rutrum hendrerit nec sed elit. Aenean id purus non
+            orci porttitor molestie. Duis blandit ipsum dui, id luctus dui
+            dapibus nec. Nam id ullamcorper mauris. Aliquam erat volutpat. Proin
+            quis interdum enim, a fringilla enim. Curabitur sed purus leo.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia curae;
+          </p>
+          <p>
+            <q>Praesent dignissim lorem dolor, pharetra sodales erat tincidunt
+              iaculis. Quisque volutpat nunc vitae mollis suscipit. Mauris
+              elementum lacus erat, id vulputate felis condimentum sed.</q
+            >
           </p>
         </section>
-        <section>
+        <section class="article__section">
           <h3>Sub Heading</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
-            finibus massa sit amet varius. Pellentesque interdum vel nisi eu
-            mollis. Morbi ut dolor nec tellus rutrum hendrerit nec sed elit.
-            Aenean id purus non orci porttitor molestie.
+            <u>Lorem ipsum dolor sit amet, consectetur adipiscing elit</u>.
+            Phasellus congue sagittis mi, ac aliquet est mattis fermentum.
+            Integer congue finibus massa sit amet varius. Pellentesque interdum
+            vel nisi eu mollis. Morbi ut dolor nec tellus rutrum hendrerit nec
+            sed elit. Aenean id purus non orci porttitor molestie.
           </p>
           <code>Sample code</code>
           <p>
@@ -117,7 +119,7 @@
             elementum lacus erat, id vulputate felis condimentum sed.
           </p>
         </section>
-        <section>
+        <section class="article__section">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
             congue sagittis mi, ac aliquet est mattis fermentum. Integer congue
@@ -148,14 +150,23 @@
           </p>
         </section>
         <nav class="article__nav">
-          <button type="button">Previous post</button>
-          <button type="button">Next post</button>
+          <button class="color-bg-secondary shadow hoverable" type="button">
+            <a href="index.html">Home</a>
+          </button>
+          <button class="color-bg-secondary shadow hoverable" type="button">
+            <a href="">Previous post</a>
+          </button>
+          <button class="color-bg-secondary shadow hoverable" type="button">
+            <a href="">Next post</a>
+          </button>
         </nav>
       </article>
       <aside class="aside">
-        <section class="aside__author">
-          <h3><em><strong>About</strong></em></h3>
-          <div>
+        <section class="aside__section card-small shadow">
+          <h3>
+            <em><strong>About</strong></em>
+          </h3>
+          <div class="card-small__content">
             <figure>
               <img
                 src="https://picsum.photos/id/1005/200/300"
@@ -168,39 +179,45 @@
             </p>
           </div>
         </section>
-        <section>
-          <nav>
-            <h3><em><strong>Archives</strong></em></h3>
-            <ul class="color-blue">
-              <li><a>Jenuary</a></li>
-              <li><a>February</a></li>
-              <li><a>March</a></li>
-              <li><a>April</a></li>
-              <li><a>May</a></li>
-              <li><a>June</a></li>
-              <li><a>July</a></li>
-              <li><a>August</a></li>
-              <li><a>September</a></li>
-              <li><a>October</a></li>
-              <li><a>November</a></li>
-              <li><a>December</a></li>
+        <section class="aside__section">
+          <nav class="aside__nav">
+            <h3>
+              <em><strong>Archives</strong></em>
+            </h3>
+            <ul>
+              <li><a href="">Jenuary</a></li>
+              <li><a href="">February</a></li>
+              <li><a href="">March</a></li>
+              <li><a href="">April</a></li>
+              <li><a href="">May</a></li>
+              <li><a href="">June</a></li>
+              <li><a href="">July</a></li>
+              <li><a href="">August</a></li>
+              <li><a href="">September</a></li>
+              <li><a href="">October</a></li>
+              <li><a href="">November</a></li>
+              <li><a href="">December</a></li>
             </ul>
           </nav>
-
-          <nav>
-            <h3><em><strong>Elsewhere</strong></em></h3>
-            <ul class="color-blue">
-              <li><a>Github</a></li>
-              <li><a>Twitter</a></li>
-              <li><a>Facebook</a></li>
+          <nav class="aside__nav">
+            <h3>
+              <em><strong>Elsewhere</strong></em>
+            </h3>
+            <ul>
+              <li><a href="">Github</a></li>
+              <li><a href="">Twitter</a></li>
+              <li><a href="">Facebook</a></li>
             </ul>
           </nav>
         </section>
       </aside>
     </main>
-    <footer class="footer color-bg-grey">
+    <footer class="footer shadow color-bg-secondary">
       <h3>Footer</h3>
       <p>Lorem ipsum dolor sit amet...</p>
     </footer>
+
+    <!-- hover-specifc loaded here to avoid animations due to style load -->
+    <link href="css/modules/core/hoverable.css" type="text/css" rel="stylesheet" />
   </body>
 </html>

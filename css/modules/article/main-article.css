@@ -1,13 +1,12 @@
 .main-article {
   margin: 40px auto;
+  grid-area: "main";
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 @media (min-width: 1024px) {   
   .main-article {
-    margin: 40px auto;
     width: 90%;
     display: grid;
     grid-auto-rows: auto;
