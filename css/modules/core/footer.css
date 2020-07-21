@@ -1,5 +1,5 @@
 .footer {
-  grid-area: "ft";
+  grid-area: ft;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -15,7 +15,6 @@
 
 @media (min-width: 1250px) {
   .footer {
-    margin: 0 auto;
-    width: 1250px;
+    width: var(--max-width);
   }
 }

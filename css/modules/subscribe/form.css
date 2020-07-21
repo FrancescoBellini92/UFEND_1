@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+
+.form__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 10px;
+}
+
+.form__section label {
+  margin: 10px 0;
+}
+
+.form button {
+  width: 150px;
+  height: 40px;
+}
+
+@media (min-width: 500px) {
+  .form {
+    max-width: 500px;
+  }
+
+  .form__section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+  }
+
+  .form__section label {
+    margin: 0 20px 0 0;
+    width: 100px;
+    text-align: end;
+  }
+  .form__section input[type="email"],
+  .form__section input[type="password"] {
+    margin: 0 20px 0 0;
+    width: 300px;
+  }
+}

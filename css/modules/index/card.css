@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  border: 2px solid var(--color-secondary);
 }
 
 .card * {
@@ -35,9 +34,3 @@
   }
 }
 
-@media (min-width: 1250px) {
-  .main {
-    margin: 0 auto;
-    width: 1250px;
-  }
-}

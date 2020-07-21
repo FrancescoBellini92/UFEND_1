@@ -1,6 +1,4 @@
 .card-small {
-  border: 2px solid var(--color-secondary);
-  border-radius: 2%;
   max-width: 300px;
 }
 

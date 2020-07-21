@@ -1,8 +1,10 @@
 .main-list {
   margin: 20px auto;
-  grid-area: "main";
+  grid-area: main;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -21,6 +23,6 @@
 @media (min-width: 1250px) {
   .main-list {
     margin: 0 auto;
-    width: 1250px;
+    width: var(--max-width);
   }
 }

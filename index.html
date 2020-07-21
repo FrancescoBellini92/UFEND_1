@@ -18,26 +18,27 @@
     <link href="css/index.css" type="text/css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="body-list">
     <header class="header shadow color-bg-secondary">
       <section class="header__title">
         <h1>Blog title</h1>
       </section>
       <section class="header__menu">
-        <section class="subscribe">
+        <section class="header__button">
           <button class="shadow hoverable">
-            <a href="">Subscribe</a>
+            <a href="subscribe.html">Subscribe</a>
           </button>
         </section>
         <form class="search-form" action="" method="GET">
           <label for="searched-post"></label>
           <input
+            aria-label="search"
             class="hoverable shadow"
             placeholder="search..."
             type="search"
             name="searched-post"
           />
-          <button type="submit" class="hoverable shadow">
+          <button aria-label="search" type="submit" class="hoverable shadow">
             <span class="fa fa-search"></span>
           </button>
         </form>
@@ -45,9 +46,9 @@
     </header>
 
     <main class="main-list">
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-primary bold"><strong>Bold</strong></p>
           <p>11/07/2020</p>
         </section>
@@ -59,9 +60,9 @@
         <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-danger">
             <strong><em>Italics</em></strong>
           </p>
@@ -75,9 +76,9 @@
         <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-danger">
             <strong><em>Italics</em></strong>
           </p>
@@ -91,9 +92,9 @@
         <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-primary"><strong>Bold</strong></p>
           <p>11/07/2020</p>
         </section>
@@ -105,9 +106,9 @@
         <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-primary"><strong>Bold</strong></p>
           <p>11/07/2020</p>
         </section>
@@ -119,9 +120,9 @@
         <a href="article.html" class="color-primary">Continue reading</a>
       </article>
 
-      <article class="card hoverable shadow">
+      <article class="card border hoverable shadow">
         <section class="card__header">
-          <h3>Example blog post</h3>
+          <h2>Example blog post</h2>
           <p class="color-danger"><em>Italics</em></p>
           <p>11/07/2020</p>
         </section>
@@ -135,7 +136,7 @@
     </main>
 
     <footer class="footer shadow color-bg-secondary">
-      <h3>Footer</h3>
+      <h2>Footer</h2>
       <p>Lorem ipsum dolor sit amet...</p>
     </footer>
     <!-- loaded here to avoid animations due to style load -->

@@ -1,9 +1,10 @@
 .aside {
-  width: 100%;
+  grid-area: aside;
   display: flex;
   flex-direction: row;
   align-items: start;
   justify-content: center;
+  align-items: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -25,10 +26,9 @@
 
 @media (min-width: 1024px) {
   .aside {
-    margin: 0 10px;
-    grid-area: "aside";
+    margin: 40px 10px;
     width: 300px;
     flex-direction: column;
-    align-items: start;
+    justify-content: start;
   }
 }

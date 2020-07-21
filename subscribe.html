@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="udacity FEND project 1" />
+    <meta name="keywords" content="udacity front end" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FEND project 1 - article</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/subscribe.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body class="body-list">
+    <header class="header color-bg-secondary shadow">
+      <section class="header__title">
+        <h1 class="header__title">Blog</h1>
+      </section>
+    </header>
+    <main class="main-list">
+      <form class="form border" action="" method="POST">
+        <h2>Sign in</h2>  
+        <div class="form__section">
+          <label for="email">email</label>
+          <input  name="email" class="hoverable shadow border" type="email" type="email" placeholder="your email" required>
+        </div>
+        <div class="form__section">
+          <label for="password">password</label>
+          <input  name="password" class="hoverable shadow border" type="password" type="password" placeholder="your password" required minlength="6" maxlength="12" pattern="[A-Z][a-z]\d">
+        </div>
+        <div class="form__section">
+          <label for="keep-logged">Remember me</label>
+          <input name="keep-logged" type="radio">
+        </div>
+        <div class="form__section">
+          <button class="color-bg-secondary shadow">
+            <a href="index.html">Home</a>
+          </button>
+          <button type="submit" class="color-bg-secondary shadow">Submit</button>
+        <div class="form__section">
+      </form>
+    </main>
+    
+    <footer class="footer shadow color-bg-secondary">
+      <h3>Footer</h3>
+      <p>Lorem ipsum dolor sit amet...</p>
+    </footer>
+    <!-- loaded here to avoid animations due to style load -->
+    <link href="css/modules/core/hoverable.css" type="text/css" rel="stylesheet" />
+  </body>
+</html>

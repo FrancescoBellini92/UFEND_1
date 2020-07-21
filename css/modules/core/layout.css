@@ -2,7 +2,7 @@ html {
   height: 100%;
 }
 
-body {
+.body-list{
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -13,8 +13,43 @@ body {
     "ft";
 }
 
+.body-article{
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr 1fr 100px;
+  grid-template-areas:
+    "hd"
+    "main"
+    "aside"
+    "ft";
+}
+
 @media (min-width: 768px) {
-  body {
+  .body-list {
     grid-template-rows: 70px 1fr 70px;
   }
+
+  .body-article {
+    grid-template-rows: 70px 1fr 1fr 70px;
+  }
 }
+
+@media (min-width: 1024px) {
+  .body-article {
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-columns: 1fr 320px;
+    grid-template-areas:
+      "hd hd"
+      "main aside"
+      "ft ft";
+  }
+}
+
+@media (min-width: 1250px) {
+  .body-list, .body-article {
+    margin: 0 auto;
+    width: var(--max-width);
+  }
+}
+

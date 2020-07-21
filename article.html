@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="udacity FEND project 1" />
+    <meta name="keywords" content="udacity front end" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FEND project 1 - article</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
@@ -17,26 +17,26 @@
     />
     <link href="css/article.css" type="text/css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="body-article">
     <header class="header shadow color-bg-secondary">
       <section class="header__title">
         <h1>Blog title</h1>
       </section>
       <section class="header__menu">
-        <section class="subscribe">
+        <section class="header__button">
           <button class="shadow hoverable">
-            <a href="">Subscribe</a>
+            <a href="subscribe.html">Subscribe</a>
           </button>
         </section>
         <form class="search-form" action="" method="GET">
-          <label for="searched-post"></label>
           <input
             class="hoverable shadow"
             placeholder="search..."
+            aria-label="search"
             type="search"
             name="searched-post"
           />
-          <button type="submit" class="hoverable shadow">
+          <button aria-label="search" type="submit" class="hoverable shadow">
             <span class="fa fa-search"></span>
           </button>
         </form>
@@ -149,7 +149,7 @@
             erat, id vulputate felis condimentum sed.
           </p>
         </section>
-        <nav class="article__nav">
+        <nav aria-label="article navigation" class="article__nav">
           <button class="color-bg-secondary shadow hoverable" type="button">
             <a href="index.html">Home</a>
           </button>
@@ -161,57 +161,57 @@
           </button>
         </nav>
       </article>
-      <aside class="aside">
-        <section class="aside__section card-small shadow">
-          <h3>
-            <em><strong>About</strong></em>
-          </h3>
-          <div class="card-small__content">
-            <figure>
-              <img
-                src="https://picsum.photos/id/1005/200/300"
-                alt="sample picture"
-              />
-              <figcaption>Pic caption</figcaption>
-            </figure>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-        </section>
-        <section class="aside__section">
-          <nav class="aside__nav">
-            <h3>
-              <em><strong>Archives</strong></em>
-            </h3>
-            <ul>
-              <li><a href="">Jenuary</a></li>
-              <li><a href="">February</a></li>
-              <li><a href="">March</a></li>
-              <li><a href="">April</a></li>
-              <li><a href="">May</a></li>
-              <li><a href="">June</a></li>
-              <li><a href="">July</a></li>
-              <li><a href="">August</a></li>
-              <li><a href="">September</a></li>
-              <li><a href="">October</a></li>
-              <li><a href="">November</a></li>
-              <li><a href="">December</a></li>
-            </ul>
-          </nav>
-          <nav class="aside__nav">
-            <h3>
-              <em><strong>Elsewhere</strong></em>
-            </h3>
-            <ul>
-              <li><a href="">Github</a></li>
-              <li><a href="">Twitter</a></li>
-              <li><a href="">Facebook</a></li>
-            </ul>
-          </nav>
-        </section>
-      </aside>
     </main>
+    <aside class="aside">
+      <section class="aside__section card-small border shadow">
+        <h3>
+          <em><strong>About</strong></em>
+        </h3>
+        <div class="card-small__content">
+          <figure>
+            <img
+              src="https://picsum.photos/id/1005/200/300"
+              alt="sample picture"
+            />
+            <figcaption>Pic caption</figcaption>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+      </section>
+      <section class="aside__section">
+        <nav aria-label="archives links" class="aside__nav">
+          <h3>
+            <em><strong>Archives</strong></em>
+          </h3>
+          <ul>
+            <li><a href="">Jenuary</a></li>
+            <li><a href="">February</a></li>
+            <li><a href="">March</a></li>
+            <li><a href="">April</a></li>
+            <li><a href="">May</a></li>
+            <li><a href="">June</a></li>
+            <li><a href="">July</a></li>
+            <li><a href="">August</a></li>
+            <li><a href="">September</a></li>
+            <li><a href="">October</a></li>
+            <li><a href="">November</a></li>
+            <li><a href="">December</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="external links" class="aside__nav">
+          <h3>
+            <em><strong>Elsewhere</strong></em>
+          </h3>
+          <ul>
+            <li><a href="">Github</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+          </ul>
+        </nav>
+      </section>
+    </aside>
     <footer class="footer shadow color-bg-secondary">
       <h3>Footer</h3>
       <p>Lorem ipsum dolor sit amet...</p>
