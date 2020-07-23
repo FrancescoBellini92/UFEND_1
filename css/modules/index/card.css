@@ -19,11 +19,6 @@
   width: 100%;
 }
 
-.card.hoverable:hover {
-  transform: scale(1.025); 
-}
-
-
 @media (min-width: 768px) {
   .card {
     width: 400px;

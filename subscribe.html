@@ -17,22 +17,22 @@
     />
     <link href="css/subscribe.css" type="text/css" rel="stylesheet" />
   </head>
-  <body class="body-list">
+  <body class="body-list preload">
     <header class="header color-bg-secondary shadow">
       <section class="header__title">
         <h1 class="header__title">Blog</h1>
       </section>
     </header>
     <main class="main-list">
-      <form class="form" action="" method="POST">
+      <form class="form border" action="" method="POST">
         <h2>Sign in</h2>  
         <div class="form__section">
           <label for="email">email</label>
-          <input id="email" name="email" class="shadow border" type="email" type="email" placeholder="your email" required>
+          <input id="email" name="email" class="border" type="email" type="email" placeholder="your email" required>
         </div>
         <div class="form__section">
           <label for="password">password</label>
-          <input id="password" name="password" class="shadow border" type="password" type="password" placeholder="your password" 
+          <input id="password" name="password" class="border" type="password" type="password" placeholder="your password" 
             required minlength="6" maxlength="12">
         </div>
         <div class="form__section">
@@ -40,10 +40,10 @@
           <input id="keep-logged" name="keep-logged" type="radio">
         </div>
         <div class="form__section">
-          <button class="color-bg-secondary shadow">
+          <button class="color-bg-secondary hoverable shadow">
             <a href="index.html">Home</a>
           </button>
-          <button type="submit" class="color-bg-secondary shadow">Submit</button>
+          <button type="submit" class="color-bg-secondary hoverable shadow">Submit</button>
         <div class="form__section">
       </form>
     </main>
@@ -51,8 +51,7 @@
     <footer class="footer shadow color-bg-secondary">
       <h3>Footer</h3>
       <p>Lorem ipsum dolor sit amet...</p>
-    </footer>
-    <!-- loaded here to avoid animations due to style load -->
-    <link href="css/modules/core/hoverable.css" type="text/css" rel="stylesheet" />
+    </footer>   
+    <script src="js/fix-preload-transitions.js"></script>
   </body>
 </html>

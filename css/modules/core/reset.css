@@ -65,3 +65,7 @@ code {
   border-radius: 2%;
   padding: 7px 0 5px 5px;
 }
+
+.preload {
+  transition: none !important;
+}

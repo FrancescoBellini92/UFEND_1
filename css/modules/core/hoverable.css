@@ -3,9 +3,11 @@
 }
 
 button.hoverable:hover {
-  padding: 8px 10px;
+  background-color: gold;
+  color:black;
 }
 
-input.hoverable:hover {
-  padding: 8px 10px;
+.card.hoverable:hover {
+  transform: scale(1.025);
+  border-color: gold;
 }
