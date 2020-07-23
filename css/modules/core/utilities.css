@@ -1,6 +1,6 @@
 :root {
   --color-primary: rgb(66, 78, 240);
-  --color-secondary: #85bbee;
+  --color-secondary: rgb(50,80,100);
   --color-danger: rgb(131, 32, 32);
   --color-border: rgb(206, 206, 206);
   --max-width: 1250px;
@@ -35,4 +35,9 @@
 .border {
   border: 2px solid var(--color-border);
   border-radius: 2%;
+}
+
+input.border {
+  border:0;
+  border-bottom: 1px solid black;
 }

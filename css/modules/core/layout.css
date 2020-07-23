@@ -6,7 +6,7 @@ html {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 120px 1fr 100px;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "hd"
     "main"
@@ -25,19 +25,10 @@ html {
     "ft";
 }
 
-@media (min-width: 768px) {
-  .body-list {
-    grid-template-rows: 70px 1fr 70px;
-  }
-
-  .body-article {
-    grid-template-rows: 70px 1fr 1fr 70px;
-  }
-}
 
 @media (min-width: 1024px) {
   .body-article {
-    grid-template-rows: 70px 1fr 70px;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 320px;
     grid-template-areas:
       "hd hd"

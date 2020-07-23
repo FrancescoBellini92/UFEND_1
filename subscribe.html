@@ -5,7 +5,7 @@
     <meta name="description" content="udacity FEND project 1" />
     <meta name="keywords" content="udacity front end" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FEND project 1 - article</title>
+    <title>FEND project 1 - subscribe</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
@@ -24,19 +24,20 @@
       </section>
     </header>
     <main class="main-list">
-      <form class="form border" action="" method="POST">
+      <form class="form" action="" method="POST">
         <h2>Sign in</h2>  
         <div class="form__section">
           <label for="email">email</label>
-          <input  name="email" class="hoverable shadow border" type="email" type="email" placeholder="your email" required>
+          <input id="email" name="email" class="shadow border" type="email" type="email" placeholder="your email" required>
         </div>
         <div class="form__section">
           <label for="password">password</label>
-          <input  name="password" class="hoverable shadow border" type="password" type="password" placeholder="your password" required minlength="6" maxlength="12" pattern="[A-Z][a-z]\d">
+          <input id="password" name="password" class="shadow border" type="password" type="password" placeholder="your password" 
+            required minlength="6" maxlength="12">
         </div>
         <div class="form__section">
           <label for="keep-logged">Remember me</label>
-          <input name="keep-logged" type="radio">
+          <input id="keep-logged" name="keep-logged" type="radio">
         </div>
         <div class="form__section">
           <button class="color-bg-secondary shadow">
