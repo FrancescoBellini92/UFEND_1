@@ -11,10 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
     <link href="css/index.css" type="text/css" rel="stylesheet" />
   </head>
 
@@ -24,11 +20,9 @@
         <h1>Blog title</h1>
       </section>
       <section class="header__menu">
-        <section class="header__button">
           <button class="shadow hoverable">
             <a href="subscribe.html">Subscribe</a>
           </button>
-        </section>
         <form class="search-form" action="" method="GET">
           <label for="searched-post"></label>
           <input
@@ -38,8 +32,8 @@
             type="search"
             name="searched-post"
           />
-          <button aria-label="search" type="submit" class="hoverable shadow">
-            <span class="fa fa-search"></span>
+          <button aria-label="search" type="submit" class="search-form__button hoverable shadow">
+            <img src="assets/search.png"/>
           </button>
         </form>
       </section>
