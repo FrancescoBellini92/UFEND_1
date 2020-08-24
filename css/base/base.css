@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #424ef0;
+  --color-secondary: rgb(50, 80, 100);
+  --color-danger: rgb(131, 32, 32);
+  --color-border: rgb(206, 206, 206);
+  --max-width: 1250px;
+}
+
 * {
   margin: 0;
   padding: 0;
