@@ -11,6 +11,8 @@ BEM methodoloy has been applied to promote DRY code and style encapsulation, and
 
 Project is deployed at https://francescobellini92.github.io/UFEND_1/
 
+## How to run
+For a simple project as this, just clone the repo
 
 ## Credits
 
